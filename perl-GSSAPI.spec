@@ -4,7 +4,7 @@
 #
 Name     : perl-GSSAPI
 Version  : 0.28
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/A/AG/AGROLMS/GSSAPI-0.28.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AG/AGROLMS/GSSAPI-0.28.tar.gz
 Summary  : No detailed summary available
@@ -88,8 +88,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/GSSAPI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/GSSAPI/OID.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/GSSAPI/OID/Set.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/GSSAPI/Status.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/GSSAPI/GSSAPI.so
+/usr/lib/perl5/*
