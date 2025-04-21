@@ -7,7 +7,7 @@
 #
 Name     : perl-GSSAPI
 Version  : 0.28
-Release  : 19
+Release  : 20
 URL      : https://cpan.metacpan.org/authors/id/A/AG/AGROLMS/GSSAPI-0.28.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AG/AGROLMS/GSSAPI-0.28.tar.gz
 Summary  : No detailed summary available
